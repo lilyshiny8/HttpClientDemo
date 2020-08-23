@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="testng" />
         <module name="Chapter10" />
+        <module name="Chapter11" />
         <module name="Chapter9" />
         <module name="Chapter6" />
       </profile>
