@@ -21,5 +21,12 @@ public class StringBuffer_demo {
         params.add(new BasicNameValuePair("age", "18"));
         System.out.println(params);
     }
+    @Test
+    public void test3() {
+        int [] arr1 = new int[]{1,2,3};
+        for(int x :arr1) {
+            System.out.println(x);
+        }
+    }
 
 }

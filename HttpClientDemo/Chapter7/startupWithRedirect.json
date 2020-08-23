@@ -1,0 +1,18 @@
+[
+  {
+    "description": "redirect",
+    "request": {
+      "uri": "/redirect/from"
+    },
+    "redirectTo": "/redirect/to"
+  },
+  {
+    "description": "redirect to a new uri",
+    "request": {
+      "uri": "/redirect/to"
+    },
+    "response": {
+      "text":"redirect successful!"
+    }
+  }
+]

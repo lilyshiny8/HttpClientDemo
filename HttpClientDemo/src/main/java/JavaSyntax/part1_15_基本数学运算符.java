@@ -1,6 +1,6 @@
 package JavaSyntax;
 
-public class OperatorBasic {
+public class part1_15_基本数学运算符 {
     public static void main(String[] args) {
         //++
         //++var

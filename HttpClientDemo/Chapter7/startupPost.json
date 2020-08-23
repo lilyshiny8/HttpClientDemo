@@ -1,0 +1,26 @@
+[
+  {
+    "description": "post request",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "the response of post method"
+    }
+  },
+  {
+    "description": "post request with parameter",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "namename",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "the response of post method with param"
+    }
+  }
+]

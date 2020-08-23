@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HttpClientDemo" />
+        <module name="testng" />
+        <module name="Chapter10" />
+        <module name="Chapter9" />
+        <module name="Chapter6" />
       </profile>
     </annotationProcessing>
   </component>

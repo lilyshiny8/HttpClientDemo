@@ -1,0 +1,9 @@
+在terminal中运行：
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+在浏览器中打开
+http://127.0.0.1:8888/demo
+http://localhost:8888/demo
+
+get method with param:
+open in browser:
+http://localhost:8888/getwithparam?name=namename&age=18
