@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 java.lang.Math
 
