@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 public class part2_21_String类两种实例化方法 {
     public static void main(String[] args) {
 

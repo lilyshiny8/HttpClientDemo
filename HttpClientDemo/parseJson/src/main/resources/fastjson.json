@@ -1,0 +1,19 @@
+{
+  "container_records": [
+    {
+      "state": {
+        "aDataItem": {
+          "fragments": [
+            {
+              "fragment": {
+                "metadata": {
+                  "DocumentCreateDatetime": "2020-08-27"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

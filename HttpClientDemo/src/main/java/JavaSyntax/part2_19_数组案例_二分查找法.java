@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 在一个指定的数组中查询一个数据的位置
  */

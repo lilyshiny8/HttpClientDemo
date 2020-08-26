@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 数组的动态初始化：
 数据类型 对象数组 [][] = new 数据类型[行个数][列个数]
@@ -14,6 +16,7 @@ public class part2_13_二维数组 {
             for (int y=0;y<arr3[x].length;y++) {//列数
                 System.out.print(arr3[x][y]);
             }
+            System.out.println();
         }
 
     }

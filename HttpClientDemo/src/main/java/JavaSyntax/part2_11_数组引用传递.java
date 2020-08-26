@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 同一块堆内存空间可以被不同的栈内存所指向
 

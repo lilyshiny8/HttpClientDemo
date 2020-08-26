@@ -14,6 +14,8 @@ import java.io.IOException;
 public class GetMethod {
     @Test
     public void getTest() {
+//        System.out.println("a");
+
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         StringBuffer params = new StringBuffer();
         String param = "aaa";

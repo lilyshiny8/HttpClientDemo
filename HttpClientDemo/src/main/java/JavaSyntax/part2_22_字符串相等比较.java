@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 public class part2_22_字符串相等比较 {
     public static void main(String[] args) {
         String str1 = "hello";

@@ -27,6 +27,7 @@ class Person_44{
     //静态方法
     public static void setCountry(String c) {
         country = c;
+
     }
     public void getInfo() {
         //非static方法访问static方法

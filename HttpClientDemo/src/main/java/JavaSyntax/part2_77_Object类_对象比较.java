@@ -13,7 +13,10 @@ class Person_77 extends Object {
         if(obj == null){
             return false;
         }
+        //this代表当前对象per1
         if(this == obj){
+            System.out.println("this,"+this);
+            System.out.println("obj,"+obj);
             return true;
         }
         //ClassCastException
@@ -36,9 +39,10 @@ class Person_77 extends Object {
 public class part2_77_Object类_对象比较 {
     public static void main(String[] args) {
         Person_77 per1 = new Person_77("name",1);
-        Person_77 per2 = new Person_77("name",1);
+        Person_77 per2 = new Person_77("name",2);
         System.out.println(per1.equals(per2));
+//        System.out.println(per1.toString());
 
-        System.out.println(per1.equals("hello"));//ClassCastException
+//        System.out.println(per1.equals("hello"));//ClassCastException
     }
 }

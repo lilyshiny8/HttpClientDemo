@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 //在整个程序开发中，主方法不要涉及过过于复杂的程序逻辑,只需要关注结果
 public class part2_16_数组数据统计 {
     public static void main(String[] args) {

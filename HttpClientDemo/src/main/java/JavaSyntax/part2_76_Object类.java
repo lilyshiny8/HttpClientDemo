@@ -26,7 +26,7 @@ class Person_76 extends Object {
 
 public class part2_76_Object类 {
     public static void main(String[] args) {
-        //public String toString()
+//        public String toString()
         fun("hello");
         fun(new Person_76("name1",11));
         //String是作为信息输出的重要数据类型，Java中所有的数据类型只要遇到了String，并且执行了"+"连接操作，

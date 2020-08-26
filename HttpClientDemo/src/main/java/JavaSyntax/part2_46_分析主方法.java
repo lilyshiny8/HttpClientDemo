@@ -13,10 +13,10 @@ String[] args: 该类执行时所需要的相关参数
  */
 public class part2_46_分析主方法 {
     public static void main(String[] args) {
-//        new part2_46_分析主方法().print();
-        for (int x=0; x<args.length; x++){
-            System.out.println(args[x]);
-        }
+        new part2_46_分析主方法().print();
+//        for (int x=0; x<args.length; x++){
+//            System.out.println(args[x]);
+//        }
 
     }
     public void print(){

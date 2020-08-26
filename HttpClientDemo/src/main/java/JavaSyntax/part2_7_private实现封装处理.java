@@ -17,6 +17,7 @@ public class part2_7_private实现封装处理 {
         private String name: public void getName(String n);
          */
 
+
         person1.setName("AAA");
         person1.setAge(3);
 //        person1.getName();

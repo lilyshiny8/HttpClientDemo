@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 字符串常量是String的匿名对象
  */

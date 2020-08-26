@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 /*
 冒泡排序
  */

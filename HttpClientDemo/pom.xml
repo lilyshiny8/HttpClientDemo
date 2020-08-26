@@ -30,6 +30,7 @@
         <module>Chapter9</module>
         <module>Chapter10</module>
         <module>Chapter11</module>
+        <module>parseJson</module>
     </modules>
 
     <dependencies>
@@ -69,6 +70,13 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20170516</version>
+        </dependency>
+        <!--        in order to resolve below error:
+         java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory-->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
         </dependency>
 
     </dependencies>

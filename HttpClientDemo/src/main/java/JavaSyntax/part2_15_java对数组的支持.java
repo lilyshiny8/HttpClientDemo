@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 public class part2_15_java对数组的支持 {
     public static void main(String[] args) {
         int intArr[] = new int[] {5,8,3,6};
@@ -5,6 +7,7 @@ public class part2_15_java对数组的支持 {
         //数组排序
         java.util.Arrays.sort(intArr);
         java.util.Arrays.sort(charArr);
+
 //        printArr(intArr);
 //        printArr(charArr);
         //数组拷贝

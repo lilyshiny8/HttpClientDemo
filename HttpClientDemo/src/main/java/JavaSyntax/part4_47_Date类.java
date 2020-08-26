@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 import java.util.Date;
 
 /*

@@ -1,6 +1,8 @@
+package JavaSyntax;
+
 public class part2_10_数组的定义和使用 {
     public static void main(String[] args) {
-        int arr1 [] = new int [3];
+        int arr1 [] = new int []{1,2,3};
         int [] arr2 = new int [3];
 
         int arr3 [] = null;

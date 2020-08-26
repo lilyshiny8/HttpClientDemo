@@ -1,3 +1,5 @@
+package JavaSyntax;
+
 import java.net.StandardSocketOptions;
 
 public class part2_8_构造方法与匿名对象 {
