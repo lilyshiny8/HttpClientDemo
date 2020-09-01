@@ -1,12 +1,10 @@
 package JavaSyntax;
 
-import java.awt.image.ImageConsumer;
-
 //接口
-interface IMessage {
+interface IMessage_1 {
 
 }
-class MessageImpl implements IMessage {
+class MessageImpl_1 implements IMessage_1 {
     public String toString() {
         return "www.mldn.cn";
     }
@@ -21,10 +19,10 @@ public class part2_78_Object类_接收引用数据类型 {
         int data [] = (int[])obj;
 
         //接口
-        IMessage msg = new MessageImpl();//子类向父接口转型
+        IMessage_1 msg = new MessageImpl_1();//子类向父接口转型
         Object obj1 = msg;//接口向Object转型
         System.out.println(obj1);
-        IMessage temp = (IMessage) obj1;//强制转换
+        IMessage_1 temp = (IMessage_1) obj1;//强制转换
 
     }
 }
