@@ -1,5 +1,8 @@
 package JavaSyntax;
 /*
+=======
+package JavaSyntax;/*
+>>>>>>> parse json
 java.text
 SimpleDateFormat
 

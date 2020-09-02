@@ -26,7 +26,7 @@ public class part2_48_49_50_代码块_普通_构造_静态 {
         new Person48();
         new Person48();
     }
-    //优先于主方法执行
+    //在主类中定义，优先于主方法执行
     static{
         System.out.println("*****************************");
     }

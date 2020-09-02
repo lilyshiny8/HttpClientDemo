@@ -1,4 +1,6 @@
 package JavaSyntax;
+//可以接收所有的引用数据类型，包括数组，接口
+//Object真正达到了参数的统一，如果一个类想要接收所有的数据类型，就使用Object完成。
 
 //接口
 interface IMessage_1 {
@@ -18,6 +20,7 @@ public class part2_78_Object类_接收引用数据类型 {
         //向下转型，需要强制类型
         int data [] = (int[])obj;
 
+        //Object可以接收接口更是Java中的强制性要求，因为接口本身是不可能继承任何类的
         //接口
         IMessage_1 msg = new MessageImpl_1();//子类向父接口转型
         Object obj1 = msg;//接口向Object转型

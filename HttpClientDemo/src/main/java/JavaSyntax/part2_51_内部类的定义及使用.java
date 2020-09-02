@@ -1,6 +1,6 @@
 package JavaSyntax;
 /*
-一个类的内部进行其他 类结构嵌套的操作语法形式
+一个类的内部进行其他类结构嵌套的操作语法形式
 1-破坏了程序的结构
 2-方便的进行私有属性的访问，在外部类或者内部类中定义private属性，外部类或内部类的方法均可以访问
 3-如果发现类名称上出现了”.“应该立马想到内部类的概念
@@ -9,6 +9,7 @@ package JavaSyntax;
  */
 class Outer {
     private String msg = "hello world!";
+
     //内部类
     class Inner {
         public void print(){

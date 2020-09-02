@@ -48,6 +48,10 @@ public class part2_44_static属性_45_static方法 {
         //static方法
         Person_44.setCountry("American");
         p1.getInfo();
+        fun();
+    }
+    public static  void fun(){
+
     }
 
 }
