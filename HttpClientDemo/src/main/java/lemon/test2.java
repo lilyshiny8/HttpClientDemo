@@ -1,5 +1,6 @@
 package lemon;
 class Employee{
+    public String temp = "temp";
     public void work(){
         System.out.println("employee work");
     };
