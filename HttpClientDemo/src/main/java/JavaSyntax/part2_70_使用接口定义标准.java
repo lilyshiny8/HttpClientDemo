@@ -1,7 +1,5 @@
 package JavaSyntax;
 
-import javax.swing.plaf.IconUIResource;
-
 /*
 三大核心应用
 1-定义操作标准

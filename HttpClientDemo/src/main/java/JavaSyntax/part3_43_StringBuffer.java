@@ -5,7 +5,7 @@ Serializable, Appendable, CharSequence
 
 CharSequence 字符集  简单理解为就是一个字符串
  */
-public class part4_43_StringBuffer {
+public class part3_43_StringBuffer {
     public static void main(String[] args) {
         StringBuffer buf = new StringBuffer();
         buf.append("a");

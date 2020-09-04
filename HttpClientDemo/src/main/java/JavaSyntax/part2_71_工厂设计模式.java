@@ -1,9 +1,8 @@
 package JavaSyntax;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
 
 /*
-1-工厂设计模式、
+1-工厂设计模式
 java实现可移植性的关键是JVM，也就说所有的程序是在JVM上执行，而不同的操作系统中有匹配的JVM
 程序 -> JVM -> 操作系统
 这个时候new是整个开发过程之后最大的耦合元凶，而我们在开发之后要进行解耦合的关键就在于引入一个第三方，所以这个类可以使用Factory来描述

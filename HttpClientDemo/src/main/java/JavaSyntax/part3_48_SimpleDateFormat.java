@@ -20,7 +20,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class part4_48_SimpleDateFormat {
+public class part3_48_SimpleDateFormat {
     public static void main(String[] args) throws Exception {
         //实现日期的格式化处理，格式化之后是字符串
         String pat = "yyyy-MM-dd HH:mm:ss:SSS";

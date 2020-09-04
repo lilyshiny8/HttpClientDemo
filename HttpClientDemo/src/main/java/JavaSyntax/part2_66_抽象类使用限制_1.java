@@ -16,7 +16,7 @@ package JavaSyntax;
 
 abstract class A66{
     public A66(){//3、调用父类的构造方法
-        this.print();//4、调用子类覆写过的方法
+        this.print();//3、调用子类覆写过的方法
     }
     public abstract void print();
 }
@@ -25,10 +25,10 @@ class B66 extends A66{
     private int num = 100;
     public B66(int num){
         //super(); //2、虽然没有该行语句，但是隐含调用了父类的无参构造方法
-        this.num = num;//7、为类中的属性初始化
+        this.num = num;//5、为类中的属性初始化
     }
     public void print(){//5、此时子类对象的属性还没有被传递,this.num=num还没有执行
-        System.out.println(this.num);//6、仍为默认值0
+        System.out.println(this.num);//4、仍为默认值0
     }
 
 }
@@ -36,6 +36,7 @@ class B66 extends A66{
 public class part2_66_抽象类使用限制_1 {
     public static void main(String[] args) {
         B66 b = new B66(66);//返回结果为0，原因分析：1、new 进入类B66的构造方法
+        b.print();//6，返回值为66
 
     }
 }

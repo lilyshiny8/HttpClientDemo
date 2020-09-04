@@ -1,6 +1,6 @@
 package JavaSyntax;
 /*
-如果你现在调用throws声明的方法，纳闷在调用时就必须明确的使用try...catch进行异常捕获。因为该方法有可能产生异常，必须按照异常的方式来进行处理
+如果你现在调用throws声明的方法，那么在调用时就必须明确的使用try...catch进行异常捕获。因为该方法有可能产生异常，必须按照异常的方式来进行处理
  */
 class MyMath {
     public static int div(int x,int y) throws Exception{

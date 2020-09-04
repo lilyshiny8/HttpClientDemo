@@ -12,7 +12,7 @@ HashSet（无序存储），TreeSet（有序存储）
 
 Hash算法
  */
-public class part2_136_Set接口常用子类 {
+public class part3_136_Set接口常用子类 {
     public static void main(String[] args) {
         Set<String> all = new HashSet<String>();
         all.add("D");

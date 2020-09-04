@@ -16,4 +16,8 @@ Number类里面实际上定义有六个重要的方法：用于从包装类中�
 intValue() shortValue() LongValue() byteValue() doubleValue() floatValue()
  */
 public class part2_79_包装类简介 {
+    public static void main(String[] args) {
+        Integer a = new Integer(1);
+        a.intValue();
+    }
 }

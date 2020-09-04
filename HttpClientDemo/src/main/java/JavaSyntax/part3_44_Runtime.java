@@ -11,7 +11,7 @@ garbage collector  用于释放无用的内存空间
 一种是自动不定期调用
 一种是调用Runtime类中的gc方法，手工调用
  */
-public class part4_44_Runtime {
+public class part3_44_Runtime {
     public static void main(String[] args) {
         //public static Runtime getRuntime() 静态方法
         Runtime t = Runtime.getRuntime();
