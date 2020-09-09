@@ -25,8 +25,8 @@ public class part3_139_集合输出 {
         while(iter.hasNext()){
             String str = iter.next();
             if("a".equals(str)){
-                all.remove("a");
-//                iter.remove();//java.util.ConcurrentModificationException
+                all.remove("a");//用List的remove方法
+//                iter.remove();//java.util.ConcurrentModificationException//用Iterator的remove方法
                 continue;
             }
             System.out.println(str);

@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 /*
+String类中对正则的支持
 public boolean matches(String regex)
 public String replaceAll(String regex,String replacement)
 public String replaceFirst(String regex,String replacement)

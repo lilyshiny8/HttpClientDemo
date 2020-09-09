@@ -40,10 +40,10 @@ public class part3_65_正则表达式 {
         .    Any character (may or may not match line terminators)
         \d   A digit: [0-9]
         \D   A non-digit: [^0-9]
-        \s A whitespace character: [ \t\n\x0B\f\r]   可能是空格 \t \n
-        \S A non-whitespace character: [^\s]
-        \w A word character: [a-zA-Z_0-9]
-        \W A non-word character: [^\w]
+        \s   A whitespace character: [ \t\n\x0B\f\r]   可能是空格 \t \n
+        \S   A non-whitespace character: [^\s]
+        \w   A word character: [a-zA-Z_0-9]
+        \W   A non-word character: [^\w]
      */
     @Test
     public void test3(){

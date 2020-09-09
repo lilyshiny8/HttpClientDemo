@@ -1,7 +1,6 @@
 package JavaSyntax;
 /*
 类集实际上就属于动态的对象数组
-java.util，类集中提供两个最为核心的操作接口，collection,Map
 每一次进行数据操作的时候只能够对单个对象进行处理，所以Collection是单个集合保存的最大父接口。
 Collection接口定义
 public interface Collection<E> extends Iterable<E>

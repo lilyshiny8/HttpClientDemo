@@ -17,10 +17,7 @@ class Person137 {
 
     @Override
     public String toString() {
-        return "Person137{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}'+"\n";
+        return "name=" + name + ", age=" + age +"\n";
     }
 
     @Override
@@ -39,15 +36,16 @@ class Person137 {
 }
 public class part3_137_集合排序说明 {
     public static void main(String[] args) {
-        /*
-        Set<Person137> set= new TreeSet<Person137>();
-        JavaSyntax.Person137 cannot be cast to java.lang.Comparable
-         */
+
+//        Set<Person137> set= new TreeSet<Person137>();
+//        JavaSyntax.Person137 cannot be cast to java.lang.Comparable
+
 
         /*
         HashSet进行重复元素判断依靠是的Object类的两个方法
         hash码：public int hashCode()
         对象比较：public boolean equals(Object obj)
+        不覆写HashCode和equals方法，就无法实现去重
          */
         Set<Person137> set= new HashSet<Person137>();
         set.add(new Person137("A",1));

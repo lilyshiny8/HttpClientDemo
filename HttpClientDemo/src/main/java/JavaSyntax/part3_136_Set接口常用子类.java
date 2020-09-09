@@ -10,7 +10,6 @@ public interface Set<E> extends Collection<E>
 两个常用的子类
 HashSet（无序存储），TreeSet（有序存储）
 
-Hash算法
  */
 public class part3_136_Set接口常用子类 {
     public static void main(String[] args) {
@@ -24,7 +23,7 @@ public class part3_136_Set接口常用子类 {
         //TreeSet使用的是要给升序排列的模式完成的
         Set<String> all1 = new TreeSet<String>();
         all1.add("D");
-        all1.add("D");
+        all1.add("B");
         all1.add("E");
         all1.add("A");
         System.out.println(all1);
