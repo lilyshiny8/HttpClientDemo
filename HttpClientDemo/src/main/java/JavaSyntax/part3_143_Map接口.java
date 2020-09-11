@@ -40,15 +40,15 @@ public class part3_143_Map接口 {
         map.put(3,"3");
         map.put(1,"1");
         map.put(2,"2");
-//        System.out.println(map);
+        System.out.println(map);
 //        System.out.println(map.get(1));
-        Set<Integer> set = map.keySet();
-        Iterator<Integer> iter = set.iterator();
-        while (iter.hasNext()){
-            Integer key = iter.next();
-            String value = map.get(key);
-            System.out.println(key+"="+value);
-        }
+//        Set<Integer> set = map.keySet();
+//        Iterator<Integer> iter = set.iterator();
+//        while (iter.hasNext()){
+//            Integer key = iter.next();
+//            String value = map.get(key);
+//            System.out.println(key+"="+value);
+//        }
 
     }
     @Test

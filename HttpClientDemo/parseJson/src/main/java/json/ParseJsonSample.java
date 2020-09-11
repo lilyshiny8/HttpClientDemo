@@ -1,29 +1,15 @@
 package json;
-
-
-
-
 import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
-<<<<<<< HEAD
+
 import org.testng.annotations.Test;
-
-import java.io.File;
-import java.io.IOException;
-import java.util.Map;
-
-public class ParseJsonSample {
-    @Test
-    public void test1() throws IOException {
-=======
 
 import java.io.File;
 import java.io.IOException;
 
 public class ParseJsonSample {
     public static void main(String[] args) throws IOException {
->>>>>>> parse json
         File file =  new File(ParseJsonSample.class.getResource("/tony.json").getFile());
         String content = FileUtils.readFileToString(file);
         JSONObject jsonObject = new JSONObject(content);
@@ -45,7 +31,7 @@ public class ParseJsonSample {
         if(jsonObject.isNull("name")) {
             System.out.println(jsonObject.getString("name"));
         }
-<<<<<<< HEAD
+
     }
     @Test
     public void test2() throws IOException {
@@ -76,8 +62,6 @@ public class ParseJsonSample {
         JSONObject fragment = (JSONObject) state.getJSONObject("state").getJSONObject("aDataItem").getJSONArray("fragments").get(0);
         String DocumentCreateDatetime = (String) fragment.getJSONObject("fragment").getJSONObject("metadata").get("DocumentCreateDatetime");
         System.out.println(DocumentCreateDatetime);
-=======
 
->>>>>>> parse json
     }
 }

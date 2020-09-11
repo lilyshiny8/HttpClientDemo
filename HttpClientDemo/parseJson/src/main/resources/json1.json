@@ -1,0 +1,17 @@
+{
+  "jsonTo": "String",
+  "jsonToList": [
+    {"a":"1"},
+    {"b":"2"}
+
+  ],
+  "params": {
+    "CURRENCY": "USD",
+    "COMPANY_NAME": "Nuchev's Ltd",
+    "date": "2020-01-01 23:23:23"
+  },
+  "taskId": "string",
+  "taskToken": "string",
+  "taskType": "string"
+
+}

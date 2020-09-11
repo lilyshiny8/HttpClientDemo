@@ -9,9 +9,9 @@ import java.util.Map;
 
 public class JsonObjectSample {
     public static void main(String[] args) {
-//        generateJsonObjectSample();
+        generateJsonObjectSample();
 //        createJsonByMap();
-        createJsonByBean();
+//        createJsonByBean();
 
     }
 

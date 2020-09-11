@@ -10,6 +10,9 @@ final被称为终结器。可以用final来定义类，方法及属性
 class A{
     //被final定义的变量
     private final int num = 100;
+    public A(){
+        System.out.println("A's constructor");
+    }
     //被final定义的父类方法
     public final void fun(){
         //cannot assign a value to a final variable 'num'
@@ -19,7 +22,8 @@ class A{
 }
 class B extends A{
     //overridden method is final
-//    public void fun(){
+//    public void fun(){}
+   
 
 
     }
