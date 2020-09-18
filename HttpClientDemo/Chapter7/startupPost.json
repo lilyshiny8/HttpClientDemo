@@ -6,7 +6,8 @@
       "method": "post"
     },
     "response": {
-      "text": "the response of post method"
+      "json": {"msg": "the response of post method"}
+
     }
   },
   {
@@ -14,13 +15,15 @@
     "request": {
       "uri": "/postwithparam",
       "method": "post",
-      "forms": {
+      "json": {
         "name": "namename",
         "age": "18"
-      }
+      },
+      "comment": "if content-type is urlencoded then should use keyword 'forms' rather than 'json'"
     },
     "response": {
-      "text": "the response of post method with param"
+      "json": {"msg": "the response of post method with param"}
+
     }
   }
 ]

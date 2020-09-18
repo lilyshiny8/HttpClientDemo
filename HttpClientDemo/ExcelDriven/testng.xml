@@ -2,23 +2,24 @@
 <suite name="aaa">
     <test name="bbb">
         <classes>
-            <class name="com.tester.extend.demo.TestMethod">
+            <class name="TestSuite">
                 <methods>
                     <method>
-                        <include name="test1"/>
-                        <include name="test2"/>
-                        <include name="test3"/>
-                        <include name="logDemo"/>
+                        <include name="test"/>
                     </method>
                 </methods>
             </class>
+            <class name = "test2"></class>
+
+
+
         </classes>
 
     </test>
 
     <listeners>
         <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
-<!--        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener"/>-->
+<!--&lt;!&ndash;        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener"/>&ndash;&gt;-->
 
 
     </listeners>

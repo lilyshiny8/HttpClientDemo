@@ -1,6 +1,6 @@
 [
   {
-    "description": "获取cookie信息",
+    "description": "get cookie information",
     "request": {
       "uri": "/getCookie",
       "method": "get"
@@ -9,11 +9,12 @@
       "cookies": {
         "login":"true"
       },
-      "text": "return cookie successful!"
+      "json": {"msg": "return cookie successful!"}
+
     }
   },
   {
-    "description": "这是一个带cookie信息的get请求",
+    "description": "this is a get request with cookie",
     "request": {
       "uri": "/get/with/cookies",
       "method": "get",
@@ -22,11 +23,12 @@
       }
     },
     "response": {
-      "text": "this is a get method with cookies"
+      "json": {"msg": "this is a get method with cookies"}
+
     }
   },
   {
-    "description": "这是一个带cookie信息的post请求",
+    "description": "this is a post request with cookie",
     "request": {
       "uri": "/post/with/cookies",
       "method": "post",
@@ -34,7 +36,7 @@
         "login":"true"
       },
       "json": {
-        "name": "huhanshan",
+        "name": "tony",
         "age": "18"
       }
     },

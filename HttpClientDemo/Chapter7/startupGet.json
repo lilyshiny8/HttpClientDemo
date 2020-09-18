@@ -6,7 +6,8 @@
       "method": "get"
     },
     "response": {
-      "text": "这是一个没有参数的get请求"
+      "json": {"msg": "this is a get request that without request parameters"}
+
     }
   },
   {
@@ -20,7 +21,9 @@
       }
     },
     "response": {
-      "text": "the response of get method with param"
+      "json": {
+        "msg":"the response of get method with param"
+      }
     }
   }
 ]

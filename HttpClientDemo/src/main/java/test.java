@@ -1,11 +1,15 @@
 
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.logging.Logger;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 public class test {
+    public static Logger logger = Logger.getLogger(test.class.getName());
     @Test
     public void test1() {
         String var1 = "123";
@@ -44,5 +48,20 @@ public class test {
         json3.accumulate("Teacher", "元始天尊"); //accmulate方法,和append方法一样
         json3.accumulate("Teacher", "唐三藏");
         System.out.println(json3.toString());
+    }
+    @Test
+    public void test4(){
+        String testcasepath=System.getProperty("user.dir")+ File.separator+"data"+File.separator+"testcase"+File.separator;
+        System.out.println(testcasepath);
+    }
+    @Test
+    public void test5(){
+        logger.severe("严重");
+        logger.warning("警告");
+        logger.info("信息");
+        logger.config("配置");
+        logger.fine("良好");
+        logger.finer("较好");
+        logger.finest("最好");
     }
 }

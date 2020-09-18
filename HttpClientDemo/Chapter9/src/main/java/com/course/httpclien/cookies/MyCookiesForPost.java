@@ -63,13 +63,14 @@ public class MyCookiesForPost {
         DefaultHttpClient client = new DefaultHttpClient();
         client.setCookieStore(store);
         //headers
-        post.setHeader("content-type","application/json");
+//        post.setHeader("content-type","application/json");
         //传参
         JSONObject param = new JSONObject();
         param.put("name","huhanshan");
         param.put("age","18");
         StringEntity entity = new StringEntity(param.toString(),"utf-8");
         post.setEntity(entity);
+        System.out.println(entity);
         //执行post请求
         HttpResponse response = client.execute(post);
         int status = response.getStatusLine().getStatusCode();

@@ -31,6 +31,8 @@
         <module>Chapter10</module>
         <module>Chapter11</module>
         <module>parseJson</module>
+        <module>ExcelDriven</module>
+        <module>RestAssured</module>
     </modules>
 
     <dependencies>
